@@ -5,7 +5,8 @@ class CardView extends egret.Sprite{
 	private m_content:egret.Bitmap;
 	private m_shakeLine:egret.Bitmap;
 	private m_love:egret.MovieClip;
-	
+	private m_container:egret.Sprite;
+
 	public image:string;
 	public audio:string;
 	public cardName:string;
@@ -19,14 +20,18 @@ class CardView extends egret.Sprite{
 		this.m_BG = DisplayUtil.createMovieClipByName("circular2");
 		this.addChild(this.m_BG);
 
+		this.m_container = new egret.Sprite();
+		this.addChild(this.m_container);
+
 		this.m_FG = DisplayUtil.createMovieClipByName("circular");
-		this.addChild(this.m_FG);
+		this.m_container.addChild(this.m_FG);
+		
 		
 		this.m_content = DisplayUtil.createBitmapByName(this.image);
-		this.m_content.width = this.m_content.height = 180;
+		this.m_content.width = this.m_content.height = 240;
 		this.m_content.x = -this.m_content.width/2;
 		this.m_content.y = -this.m_content.height/2;
-		this.addChild(this.m_content);
+		this.m_container.addChild(this.m_content);
 
 		this.m_shakeLine = DisplayUtil.createBitmapByName("shakeLine_png");
 		this.m_shakeLine.x = -143;
@@ -42,14 +47,15 @@ class CardView extends egret.Sprite{
 	}
 
 	public dispose(){
-		egret.Tween.removeTweens(this.m_FG);
+		egret.Tween.removeTweens(this);
+		egret.Tween.removeTweens(this.m_container);
 		this.m_FG = null;
 		this.m_BG = null;
 		this.m_content = null;
 	}
 
 	public roll(){
-		egret.Tween.get(this.m_FG).to({rotation:-360}, 1000).call(this.roll,this);
+		egret.Tween.get(this.m_container).to({rotation:-360}, 1000).call(this.roll,this);
 	}
 
 	//答错

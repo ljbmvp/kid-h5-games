@@ -1,0 +1,36 @@
+{"mc":{
+	"card":{
+		"frameRate":24,
+		"labels":[
+			{"name":"none","frame":1,"end":1}
+			,{"name":"right","frame":2,"end":2}
+			,{"name":"wrong","frame":3,"end":3}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"CC3FBDAF",
+			"x":-144,
+			"y":-45
+			},
+			{
+			"res":"BF2AF264",
+			"x":-229,
+			"y":-45
+			},
+			{
+			"res":"2AFFEE37",
+			"x":-186,
+			"y":-45
+			}
+			]
+}},
+	"res":{
+		"BF2AF264":{"x":1,"y":1,"w":456,"h":330},
+		"2AFFEE37":{"x":1,"y":333,"w":330,"h":330},
+		"CC3FBDAF":{"x":1,"y":665,"w":248,"h":330}
+	}}

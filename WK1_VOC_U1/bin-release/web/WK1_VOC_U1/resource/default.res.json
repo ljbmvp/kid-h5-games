@@ -1,0 +1,210 @@
+{
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "config_json,scene_jpg,cloud1_png,cloud2_png,cloud3_png,musicBtn_png,muteBtn_png,playAgainBtn_png,repatBtn_png,start_png,tryAgainBtn_png,bgmusic_mp3,starDark_png,starLight_png,U1VOC-OS03_mp3,U1VOC01_mp3,U1VOC02_mp3,U1VOC03_mp3,U1VOC04_mp3,U1VOC05_mp3,U1VOC06_mp3,U1VOC07_mp3,U1VOC-OS01_mp3,U1VOC-OS02_mp3,U1V004_mp3,U1V001_mp3,U1V002_mp3,U1V003_mp3,U1V004_png,U1V001_png,U1V002_png,U1V003_png,clock_png,bird_json,bird_png,card_json,card_png,wind_png,role1_json,role1_png"
+		}
+	],
+	"resources": [
+		{
+			"name": "config_json",
+			"type": "json",
+			"url": "config/config.json"
+		},
+		{
+			"name": "scene_jpg",
+			"type": "image",
+			"url": "assets/scene/scene.jpg"
+		},
+		{
+			"name": "cloud1_png",
+			"type": "image",
+			"url": "assets/scene/cloud1.png"
+		},
+		{
+			"name": "cloud2_png",
+			"type": "image",
+			"url": "assets/scene/cloud2.png"
+		},
+		{
+			"name": "cloud3_png",
+			"type": "image",
+			"url": "assets/scene/cloud3.png"
+		},
+		{
+			"name": "musicBtn_png",
+			"type": "image",
+			"url": "assets/ui/musicBtn.png"
+		},
+		{
+			"name": "muteBtn_png",
+			"type": "image",
+			"url": "assets/ui/muteBtn.png"
+		},
+		{
+			"name": "playAgainBtn_png",
+			"type": "image",
+			"url": "assets/ui/playAgainBtn.png"
+		},
+		{
+			"name": "repatBtn_png",
+			"type": "image",
+			"url": "assets/ui/repatBtn.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/ui/start.png"
+		},
+		{
+			"name": "tryAgainBtn_png",
+			"type": "image",
+			"url": "assets/ui/tryAgainBtn.png"
+		},
+		{
+			"name": "bgmusic_mp3",
+			"type": "sound",
+			"url": "assets/audio/bgmusic.mp3"
+		},
+		{
+			"name": "starDark_png",
+			"type": "image",
+			"url": "assets/ui/starDark.png"
+		},
+		{
+			"name": "starLight_png",
+			"type": "image",
+			"url": "assets/ui/starLight.png"
+		},
+		{
+			"name": "U1VOC-OS03_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC-OS03.mp3"
+		},
+		{
+			"name": "U1VOC01_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC01.mp3"
+		},
+		{
+			"name": "U1VOC02_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC02.mp3"
+		},
+		{
+			"name": "U1VOC03_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC03.mp3"
+		},
+		{
+			"name": "U1VOC04_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC04.mp3"
+		},
+		{
+			"name": "U1VOC05_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC05.mp3"
+		},
+		{
+			"name": "U1VOC06_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC06.mp3"
+		},
+		{
+			"name": "U1VOC07_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC07.mp3"
+		},
+		{
+			"name": "U1VOC-OS01_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC-OS01.mp3"
+		},
+		{
+			"name": "U1VOC-OS02_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1VOC-OS02.mp3"
+		},
+		{
+			"name": "U1V004_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1V004.mp3"
+		},
+		{
+			"name": "U1V001_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1V001.mp3"
+		},
+		{
+			"name": "U1V002_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1V002.mp3"
+		},
+		{
+			"name": "U1V003_mp3",
+			"type": "sound",
+			"url": "assets/audio/U1V003.mp3"
+		},
+		{
+			"name": "U1V004_png",
+			"type": "image",
+			"url": "assets/card/U1V004.png"
+		},
+		{
+			"name": "U1V001_png",
+			"type": "image",
+			"url": "assets/card/U1V001.png"
+		},
+		{
+			"name": "U1V002_png",
+			"type": "image",
+			"url": "assets/card/U1V002.png"
+		},
+		{
+			"name": "U1V003_png",
+			"type": "image",
+			"url": "assets/card/U1V003.png"
+		},
+		{
+			"name": "clock_png",
+			"type": "image",
+			"url": "assets/ui/clock.png"
+		},
+		{
+			"name": "bird_json",
+			"type": "json",
+			"url": "assets/mc/bird.json"
+		},
+		{
+			"name": "bird_png",
+			"type": "image",
+			"url": "assets/mc/bird.png"
+		},
+		{
+			"name": "card_json",
+			"type": "json",
+			"url": "assets/mc/card.json"
+		},
+		{
+			"name": "card_png",
+			"type": "image",
+			"url": "assets/mc/card.png"
+		},
+		{
+			"name": "wind_png",
+			"type": "image",
+			"url": "assets/scene/wind.png"
+		},
+		{
+			"name": "role1_json",
+			"type": "json",
+			"url": "assets/mc/role1.json"
+		},
+		{
+			"name": "role1_png",
+			"type": "image",
+			"url": "assets/mc/role1.png"
+		}
+	]
+}

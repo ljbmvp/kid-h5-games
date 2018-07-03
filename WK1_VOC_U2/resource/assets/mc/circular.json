@@ -1,0 +1,47 @@
+{"mc":{
+	"circular":{
+		"frameRate":24,
+		"labels":[
+			{"name":"color1","frame":1,"end":6}
+			,{"name":"color2","frame":7,"end":11}
+			,{"name":"color3","frame":12,"end":16}
+			,{"name":"color4","frame":17,"end":21}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"879B0883",
+			"x":-167,
+			"y":-120,
+			"duration":6
+			},
+			{
+			"res":"FE3B5E0A",
+			"x":-167,
+			"y":-120,
+			"duration":5
+			},
+			{
+			"res":"504A06BC",
+			"x":-167,
+			"y":-120,
+			"duration":5
+			},
+			{
+			"res":"A40B0DFD",
+			"x":-167,
+			"y":-125,
+			"duration":5
+			}
+			]
+}},
+	"res":{
+		"FE3B5E0A":{"x":584,"y":1,"w":287,"h":264},
+		"879B0883":{"x":295,"y":1,"w":287,"h":264},
+		"A40B0DFD":{"x":1,"y":1,"w":292,"h":269},
+		"504A06BC":{"x":295,"y":267,"w":287,"h":264}
+	}}

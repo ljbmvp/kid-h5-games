@@ -1,0 +1,210 @@
+{
+	"groups": [
+		{
+			"keys": "config_json,scene_jpg,cloud1_png,cloud2_png,cloud3_png,musicBtn_png,muteBtn_png,playAgainBtn_png,repatBtn_png,start_png,tryAgainBtn_png,bgmusic_mp3,starDark_png,starLight_png,U1VOC-OS03_mp3,U1VOC01_mp3,U1VOC02_mp3,U1VOC03_mp3,U1VOC04_mp3,U1VOC05_mp3,U1VOC06_mp3,U1VOC07_mp3,U1VOC-OS01_mp3,U1VOC-OS02_mp3,clock_png,bird_json,bird_png,card_json,card_png,wind_png,role1_json,role1_png,U4V001_png,U4V002_png,U4V003_png,U4V004_png,U4V001_mp3,U4V002_mp3,U4V003_mp3,U4V004_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/config.json",
+			"type": "json",
+			"name": "config_json"
+		},
+		{
+			"url": "assets/scene/scene.jpg",
+			"type": "image",
+			"name": "scene_jpg"
+		},
+		{
+			"url": "assets/scene/cloud1.png",
+			"type": "image",
+			"name": "cloud1_png"
+		},
+		{
+			"url": "assets/scene/cloud2.png",
+			"type": "image",
+			"name": "cloud2_png"
+		},
+		{
+			"url": "assets/scene/cloud3.png",
+			"type": "image",
+			"name": "cloud3_png"
+		},
+		{
+			"url": "assets/ui/musicBtn.png",
+			"type": "image",
+			"name": "musicBtn_png"
+		},
+		{
+			"url": "assets/ui/muteBtn.png",
+			"type": "image",
+			"name": "muteBtn_png"
+		},
+		{
+			"url": "assets/ui/playAgainBtn.png",
+			"type": "image",
+			"name": "playAgainBtn_png"
+		},
+		{
+			"url": "assets/ui/repatBtn.png",
+			"type": "image",
+			"name": "repatBtn_png"
+		},
+		{
+			"url": "assets/ui/start.png",
+			"type": "image",
+			"name": "start_png"
+		},
+		{
+			"url": "assets/ui/tryAgainBtn.png",
+			"type": "image",
+			"name": "tryAgainBtn_png"
+		},
+		{
+			"url": "assets/audio/bgmusic.mp3",
+			"type": "sound",
+			"name": "bgmusic_mp3"
+		},
+		{
+			"url": "assets/ui/starDark.png",
+			"type": "image",
+			"name": "starDark_png"
+		},
+		{
+			"url": "assets/ui/starLight.png",
+			"type": "image",
+			"name": "starLight_png"
+		},
+		{
+			"url": "assets/audio/U1VOC-OS03.mp3",
+			"type": "sound",
+			"name": "U1VOC-OS03_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC01.mp3",
+			"type": "sound",
+			"name": "U1VOC01_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC02.mp3",
+			"type": "sound",
+			"name": "U1VOC02_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC03.mp3",
+			"type": "sound",
+			"name": "U1VOC03_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC04.mp3",
+			"type": "sound",
+			"name": "U1VOC04_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC05.mp3",
+			"type": "sound",
+			"name": "U1VOC05_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC06.mp3",
+			"type": "sound",
+			"name": "U1VOC06_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC07.mp3",
+			"type": "sound",
+			"name": "U1VOC07_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC-OS01.mp3",
+			"type": "sound",
+			"name": "U1VOC-OS01_mp3"
+		},
+		{
+			"url": "assets/audio/U1VOC-OS02.mp3",
+			"type": "sound",
+			"name": "U1VOC-OS02_mp3"
+		},
+		{
+			"url": "assets/ui/clock.png",
+			"type": "image",
+			"name": "clock_png"
+		},
+		{
+			"url": "assets/mc/bird.json",
+			"type": "json",
+			"name": "bird_json"
+		},
+		{
+			"url": "assets/mc/bird.png",
+			"type": "image",
+			"name": "bird_png"
+		},
+		{
+			"url": "assets/mc/card.json",
+			"type": "json",
+			"name": "card_json"
+		},
+		{
+			"url": "assets/mc/card.png",
+			"type": "image",
+			"name": "card_png"
+		},
+		{
+			"url": "assets/scene/wind.png",
+			"type": "image",
+			"name": "wind_png"
+		},
+		{
+			"url": "assets/mc/role1.json",
+			"type": "json",
+			"name": "role1_json"
+		},
+		{
+			"url": "assets/mc/role1.png",
+			"type": "image",
+			"name": "role1_png"
+		},
+		{
+			"url": "assets/card/U4V001.png",
+			"type": "image",
+			"name": "U4V001_png"
+		},
+		{
+			"url": "assets/card/U4V002.png",
+			"type": "image",
+			"name": "U4V002_png"
+		},
+		{
+			"url": "assets/card/U4V003.png",
+			"type": "image",
+			"name": "U4V003_png"
+		},
+		{
+			"url": "assets/card/U4V004.png",
+			"type": "image",
+			"name": "U4V004_png"
+		},
+		{
+			"url": "assets/audio/U4V001.mp3",
+			"type": "sound",
+			"name": "U4V001_mp3"
+		},
+		{
+			"url": "assets/audio/U4V002.mp3",
+			"type": "sound",
+			"name": "U4V002_mp3"
+		},
+		{
+			"url": "assets/audio/U4V003.mp3",
+			"type": "sound",
+			"name": "U4V003_mp3"
+		},
+		{
+			"url": "assets/audio/U4V004.mp3",
+			"type": "sound",
+			"name": "U4V004_mp3"
+		}
+	]
+}

@@ -39,7 +39,7 @@ var GameScene = (function (_super) {
     };
     //放烟花
     GameScene.prototype.spark = function () {
-        this.addChild(this.m_spark);
+        Game.instance.screenLayer.addChild(this.m_spark);
         this.m_spark.y = 200;
         this.m_spark.alpha = 0;
         egret.Tween.get(this.m_spark).to({ alpha: 1, y: 0 }, 2000).wait(1000).to({ alpha: 0, y: 200 }, 1500);

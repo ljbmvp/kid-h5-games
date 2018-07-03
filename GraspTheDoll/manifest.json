@@ -1,0 +1,31 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"promise/promise.js"
+	],
+	"game": [
+		"bin-debug/Step.js",
+		"bin-debug/components/CountStars.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/SoundPlayer.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/components/CardComponent.js",
+		"bin-debug/components/CountLoves.js",
+		"bin-debug/GraspTheDoll.js",
+		"bin-debug/components/EButton.js",
+		"bin-debug/components/EffectUtils.js",
+		"bin-debug/components/ETextField.js",
+		"bin-debug/components/HandComponent.js",
+		"bin-debug/components/PublicTool.js",
+		"bin-debug/components/QuestionCompoment.js",
+		"bin-debug/components/UtilsClass/BitmapBlink.js",
+		"bin-debug/components/UtilsClass/TipsUtils.js"
+	]
+}

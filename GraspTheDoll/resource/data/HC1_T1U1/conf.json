@@ -1,0 +1,29 @@
+{
+	
+	"items": [
+		{
+			"title": "book",
+			"img": "HC1-Sentences Game-T1U1-1_book_png",
+			"audio": "HC1-Sentences Game-T1U1_1_mp3"
+			
+		},
+		{
+			"title": "bag",
+			"img": "HC1-Sentences Game-T1U1-2_bag_png",
+			"audio": "HC1-Sentences Game-T1U1_2_mp3"
+			
+		},
+		{
+			"title": "hat",
+			"img": "HC1-Sentences Game-T1U1-3_hat_png",
+			"audio": "HC1-Sentences Game-T1U1_3_mp3"
+			
+		},
+		{
+			"title": "cup",
+			"img": "HC1-Sentences Game-T1U1-4_cup_png",
+			"audio": "HC1-Sentences Game-T1U1_4_mp3"
+			
+		}
+	]
+}

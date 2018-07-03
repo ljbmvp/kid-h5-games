@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,startBar_png,startBarBG_png,tryAgain_png,新建位图图像_bmp,bar_png,bg_png,card0_png,card1_png,card2_png,card3_png,gameDone_png,gameOver_png,getBtn_png,hand0_png,hand1_png,hand2_png,hand3_png,heartBar_png,heartBarBG_png,leftBtn_png,quitBtn_png,rightBtn_png,start_png,bgmusic_mp3,repeat_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,startBar_png,startBarBG_png,tryAgain_png,新建位图图像_bmp,bar_png,bg_png,card0_png,card1_png,card2_png,card3_png,gameDone_png,gameOver_png,getBtn_png,hand0_png,hand1_png,hand2_png,hand3_png,heartBar_png,heartBarBG_png,leftBtn_png,quitBtn_png,rightBtn_png,start_png,bgmusic_mp3,repeat_png,HC1_T1U1_json,HC2_T2U2_json,HC2-Sentences Game-cake_mp3,HC2-Sentences Game-juice_mp3,HC2-Sentences Game-milk_mp3,HC2-Sentences Game-ice_mp3,HC2-Sentences Game-cake_png,HC2-Sentences Game-ice_png,HC2-Sentences Game-milk_png,HC2-Sentences Game-juice_png",
 			"name": "preload"
 		},
 		{
@@ -9,8 +9,12 @@
 			"name": "scene"
 		},
 		{
-			"keys": "HC1-Sentences Game-T1U1-1_book_png,HC1-Sentences Game-T1U1-2_bag_png,HC1-Sentences Game-T1U1-3_hat_png,HC1-Sentences Game-T1U1-4_cup_png,HC1-Sentences Game-T1U1_1_mp3,HC1-Sentences Game-T1U1_2_mp3,HC1-Sentences Game-T1U1_3_mp3,HC1-Sentences Game-T1U1_4_mp3,conf_json",
+			"keys": "HC1-Sentences Game-T1U1-1_book_png,HC1-Sentences Game-T1U1-2_bag_png,HC1-Sentences Game-T1U1-3_hat_png,HC1-Sentences Game-T1U1-4_cup_png,HC1-Sentences Game-T1U1_1_mp3,HC1-Sentences Game-T1U1_2_mp3,HC1-Sentences Game-T1U1_3_mp3,HC1-Sentences Game-T1U1_4_mp3,HC1_T1U1_json",
 			"name": "HC1_T1U1"
+		},
+		{
+			"keys": "HC2-Sentences Game-milk_png,HC2-Sentences Game-milk_mp3,HC2-Sentences Game-juice_png,HC2-Sentences Game-juice_mp3,HC2-Sentences Game-ice_png,HC2-Sentences Game-ice_mp3,HC2-Sentences Game-cake_png,HC2-Sentences Game-cake_mp3,HC2_T2U2_json",
+			"name": "HC2_T2U2"
 		}
 	],
 	"resources": [
@@ -310,11 +314,6 @@
 			"name": "HC1-Sentences Game-T1U1_4_mp3"
 		},
 		{
-			"url": "data/HC1_T1U1/conf.json",
-			"type": "json",
-			"name": "conf_json"
-		},
-		{
 			"url": "assets/unit1/next.png",
 			"type": "image",
 			"name": "next_png"
@@ -323,6 +322,56 @@
 			"url": "assets/unit1/repeat.png",
 			"type": "image",
 			"name": "repeat_png"
+		},
+		{
+			"url": "data/HC1_T1U1/HC1_T1U1.json",
+			"type": "json",
+			"name": "HC1_T1U1_json"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2_T2U2.json",
+			"type": "json",
+			"name": "HC2_T2U2_json"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-cake.mp3",
+			"type": "sound",
+			"name": "HC2-Sentences Game-cake_mp3"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-juice.mp3",
+			"type": "sound",
+			"name": "HC2-Sentences Game-juice_mp3"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-milk.mp3",
+			"type": "sound",
+			"name": "HC2-Sentences Game-milk_mp3"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-ice.mp3",
+			"type": "sound",
+			"name": "HC2-Sentences Game-ice_mp3"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-cake.png",
+			"type": "image",
+			"name": "HC2-Sentences Game-cake_png"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-ice.png",
+			"type": "image",
+			"name": "HC2-Sentences Game-ice_png"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-milk.png",
+			"type": "image",
+			"name": "HC2-Sentences Game-milk_png"
+		},
+		{
+			"url": "data/HC2_T2U2/HC2-Sentences Game-juice.png",
+			"type": "image",
+			"name": "HC2-Sentences Game-juice_png"
 		}
 	]
 }

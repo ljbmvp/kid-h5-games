@@ -1,0 +1,29 @@
+{
+	
+	"items": [
+		{
+			"title": "cake",
+			"img": "HC2-Sentences Game-cake_png",
+			"audio": "HC2-Sentences Game-cake_mp3"
+			
+		},
+		{
+			"title": "ice",
+			"img": "HC2-Sentences Game-ice_png",
+			"audio": "HC2-Sentences Game-ice_mp3"
+			
+		},
+		{
+			"title": "juice",
+			"img": "HC2-Sentences Game-juice_png",
+			"audio": "HC2-Sentences Game-juice_mp3"
+			
+		},
+		{
+			"title": "milk",
+			"img": "HC2-Sentences Game-milk_png",
+			"audio": "HC2-Sentences Game-milk_mp3"
+			
+		}
+	]
+}

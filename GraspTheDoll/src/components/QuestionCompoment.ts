@@ -21,7 +21,8 @@ class QuestionCompoment extends egret.Sprite {
 	}
 	private initContent():void
 	{
-		this._gameData = RES.getRes("conf_json");
+		let requestObj = GetRequestObject();
+		this._gameData = RES.getRes(requestObj.assetsName+"_json");
 		this.loadImg();
 		
 		this.m_tipsSound = new SoundPlayer();
@@ -146,9 +147,9 @@ class QuestionCompoment extends egret.Sprite {
 		//var p:egret.Point=item.globalToLocal(pX,pY);		
 		//isTrue= item.hitObj.hitTestPoint( pX, pY, false );
 		if(isTrue){
-			EffectUtils.showTips("回答正確",4,true);
+			EffectUtils.showTips("回答正确",4,true);
 		}else{
-			EffectUtils.showTips("回答錯誤",4);
+			EffectUtils.showTips("回答错误",4);
 		}
 		
        

@@ -5,8 +5,7 @@
 		"libs/modules/eui/eui.js",
 		"libs/modules/res/res.js",
 		"libs/modules/game/game.js",
-		"libs/modules/tween/tween.js",
-		"promise/promise.js"
+		"libs/modules/tween/tween.js"
 	],
 	"game": [
 		"bin-debug/Step.js",

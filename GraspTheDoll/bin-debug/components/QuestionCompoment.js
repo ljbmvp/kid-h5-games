@@ -32,7 +32,8 @@ var QuestionCompoment = (function (_super) {
         return _this;
     }
     QuestionCompoment.prototype.initContent = function () {
-        this._gameData = RES.getRes("conf_json");
+        var requestObj = GetRequestObject();
+        this._gameData = RES.getRes(requestObj.assetsName + "_json");
         this.loadImg();
         this.m_tipsSound = new SoundPlayer();
     };
